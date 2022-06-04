@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Poppins:wght@400;500&family=Raleway:wght@700&family=Roboto+Slab:wght@600&family=Roboto:wght@300;500;700&family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg-dark-img {
+    padding-top: 140px;
+    background-image: url(../img/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 1600px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.head {
+    margin-bottom: 100px;
+}
+
+
+/* body part start  */
+
+.card1 {
+    width: 370px;
+    border: solid 7px #fefefe;
+    background: #fff;
+    border-radius: 10px;
+    transform: rotate(-10deg);
+    margin-top: 16px;
+}
+
+.card1-img1 {
+    position: relative;
+}
+
+.card1-img1 button {
+    width: 80px;
+    border: none;
+    background: none;
+}
+
+.svg-btn {
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+}
+
+.card1-img-name {
+    text-align: center;
+}
+
+.card1-img-name img {
+    transform: rotate(3deg);
+}
+
+.card1-img img {
+    border-radius: 10px;
+}
+
+.contact-button {
+    text-align: center;
+}
+
+.logo {
+    width: 465px;
+    margin-left: -63px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+/* card2 start */
+
+.card2-text {
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.card2-text p span {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.card2 {
+    width: 370px;
+    border: solid 6px #ccc8a3;
+    background: #4b4944;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card2 .arrow-down {
+    position: absolute;
+    bottom: -27px;
+    width: 25px;
+    left: 20px;
+}
+
+.card2-text h4,
+.card2-text p {
+    line-height: 35px;
+}
+
+.card2-img {
+    text-align: center;
+    position: relative;
+    margin-top: 95px;
+}
+
+.card2-img2 {
+    position: absolute;
+    top: -74px;
+}

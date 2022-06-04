@@ -1,0 +1,103 @@
+@media only screen and (min-width: 1400px) {
+    .bg-dark-img {
+        height: 3600px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        width: 385px;
+    }
+    .card1 {
+        width: 330px;
+        border: solid 5px #fefefe;
+    }
+    .card1-img img {
+        width: 100%;
+    }
+    .card1-img1 button {
+        width: 65px;
+    }
+    .card2 {
+        width: 330px;
+        border: solid 5px #ccc8a3;
+    }
+    .card2-text h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .icon img {
+        width: 70px;
+    }
+    .contact-button img {
+        width: 100%;
+    }
+    .logo {
+        width: 275px;
+        margin-left: -46px;
+    }
+    .card1 {
+        width: 250px;
+    }
+    .card2 {
+        width: 250px;
+    }
+    .card1-img-name img {
+        width: 100%;
+    }
+    .card2-text h4 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .card2-text p {
+        line-height: 26px;
+        font-size: 12px;
+    }
+    .card2-img1 {
+        width: 180px;
+        margin: auto;
+    }
+    .card2-img1 img,
+    .card2-img2 img {
+        width: 100%;
+    }
+    .card2-img2 {
+        position: absolute;
+        top: -33px;
+        width: 180px;
+        left: 15px;
+    }
+    .card1-img1 button {
+        width: 43px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .icon {
+        text-align: center;
+    }
+    .logo {
+        width: 275px;
+        margin: auto;
+    }
+    .contact-button {
+        width: 135px;
+        margin: auto;
+    }
+    .card1 {
+        width: 250px;
+        margin: auto;
+        margin-bottom: 75px;
+    }
+    .card2 {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .card2 {
+        margin-left: 38px;
+    }
+}
